@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/general_parameters">
+    <EditTextPreference android:key="RTTServer" android:defaultValue="52.151.63.135" android:title="@string/rttServer"/>
+    <EditTextPreference android:key="TxPort" android:defaultValue="2947" android:title="@string/txPort"/>
+    <EditTextPreference android:key="RxPort" android:defaultValue="2947" android:title="@string/rxPort"/>
+    <EditTextPreference android:key="CANServerName" android:defaultValue="192.168.43.100" android:title="@string/canServerName"/>
+    <CheckBoxPreference android:key="UseCANBridge" android:title="@string/useCANBridge"  android:defaultValue="true" />
+    <EditTextPreference android:key="CANInPort" android:defaultValue="3005" android:title="@string/canInPort"/>
+    <EditTextPreference android:key="CANOutPort" android:defaultValue="3005" android:title="@string/canOutPort"/>
+    <EditTextPreference android:key="CommsAddress" android:defaultValue="11" android:title="@string/commsAddress"/>
+    <EditTextPreference android:key="StationaryRate" android:defaultValue="180" android:title="@string/stationaryRate"/>
+    <EditTextPreference android:key="MovingThreshold" android:defaultValue="0.75" android:title="@string/movingThreshold"/>
+    <EditTextPreference android:key="MovingRate" android:defaultValue="15" android:title="@string/movingRate"/>
+    <EditTextPreference android:key="MovingHysteresis" android:defaultValue="4" android:title="@string/movingHysteresis"/>
+    <EditTextPreference android:key="VehicleConfigVersion" android:defaultValue="0" android:title="@string/vehicleConfigVersion"/>
+    <EditTextPreference android:key="RoutePatternVersion" android:defaultValue="0" android:title="@string/routePatternVersion" />
+    <EditTextPreference android:key="DeviceMask" android:defaultValue="0" android:title="@string/deviceMask"/>
+    <CheckBoxPreference android:key="RequiresAP" android:title="@string/requiresAP"  android:defaultValue="true" />
+    <EditTextPreference android:key="AllowedIP" android:defaultValue="52.151.63.135" android:title="@string/allowedIP"/>
+    <EditTextPreference android:key="Bits" android:defaultValue="32" android:title="@string/bits"/>
+    <EditTextPreference android:key="AllowedIP2" android:defaultValue="111.69.55.0" android:title="@string/allowedIP2"/>
+    <EditTextPreference android:key="Bits2" android:defaultValue="27" android:title="@string/bits2"/>
+    <EditTextPreference android:key="AllowedIP3" android:defaultValue="192.168.30.121" android:title="@string/allowedIP3"/>
+    <EditTextPreference android:key="Bits3" android:defaultValue="32" android:title="@string/bits3"/>
+    <EditTextPreference android:key="AllowedIP4" android:defaultValue="192.168.30.121" android:title="@string/allowedIP4"/>
+    <EditTextPreference android:key="Bits4" android:defaultValue="32" android:title="@string/bits4"/>
+    <EditTextPreference android:key="From" android:defaultValue="8181" android:title="@string/from"/>
+    <EditTextPreference android:key="Target" android:defaultValue="192.168.43.100" android:title="@string/target"/>
+    <EditTextPreference android:key="To" android:defaultValue="8181" android:title="@string/to"/>
+    <ListPreference android:key="Nic2" android:title="@string/nic" android:entries="@array/quotes_array" android:dependency="Enhanced"/>
+    <EditTextPreference android:key="From2" android:defaultValue="2222" android:title="@string/from2"/>
+    <EditTextPreference android:key="Target2" android:defaultValue="192.168.43.100" android:title="@string/target2"/>
+    <EditTextPreference android:key="To2" android:defaultValue="22" android:title="@string/to2"/>
+    <!--<ListPreference android:key="Nic3" android:title="@string/nic" android:entries="@array/nic_names" android:entryValues="@array/nic_values" android:defaultValue="usb0" android:dependency="Enhanced"/>-->
+    <EditTextPreference android:key="From3" android:defaultValue="8080" android:title="@string/from3"/>
+    <EditTextPreference android:key="Target3" android:defaultValue="192.168.43.100" android:title="@string/target3"/>
+    <EditTextPreference android:key="To3" android:defaultValue="8080" android:title="@string/to3"/>
+    <EditTextPreference android:key="Interval" android:defaultValue="5" android:title="@string/interval"/>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/about">
+    <Preference android:title="@string/created_by" android:summary="@string/created_by_summary" />
+		<Preference android:title="@string/version" android:summary="@string/copyright" />
+   </PreferenceCategory>
+</PreferenceScreen>

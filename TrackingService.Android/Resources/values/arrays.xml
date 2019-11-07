@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string-array name="quotes_array">
+    <item>lo</item>
+    <item>usb0</item>
+    <item>usb1</item>
+   
+  </string-array>
+</resources>

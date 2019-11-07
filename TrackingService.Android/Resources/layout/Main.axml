@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCC"
+        android:paddingTop="1dp"
+        android:stretchColumns="0"
+        android:id="@+id/tTrackingServcie">
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp">
+            <TextView
+                android:id="@+id/latText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="right"
+                android:textSize="20sp"
+                android:text="Latitude:" />
+            <TextView
+                android:id="@+id/lat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="......" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp">
+            <TextView
+                android:id="@+id/lonText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="right"
+                android:textSize="20sp"
+                android:text="Longitude:" />
+            <TextView
+                android:id="@+id/lon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="......" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp">
+            <TextView
+                android:id="@+id/altText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="right"
+                android:textSize="20sp"
+                android:text="Altitude:" />
+            <TextView
+                android:id="@+id/alt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="......" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp">
+            <TextView
+                android:id="@+id/speedText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="right"
+                android:textSize="20sp"
+                android:text="Speed Over Ground:" />
+            <TextView
+                android:id="@+id/speed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="......" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp">
+            <TextView
+                android:id="@+id/fixText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="right"
+                android:textSize="20sp"
+                android:text="Fixed:" />
+            <TextView
+                android:id="@+id/fix"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="......" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp">
+            <TextView
+                android:id="@+id/pdopText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="right"
+                android:textSize="20sp"
+                android:text="Position Dilution of Precision:" />
+            <TextView
+                android:id="@+id/pdop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="......" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp">
+            <TextView
+                android:id="@+id/hdopText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="right"
+                android:textSize="20sp"
+                android:text="Horizontal Dilution of Precision:" />
+            <TextView
+                android:id="@+id/hdop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="......" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp">
+            <TextView
+                android:id="@+id/vdopText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="right"
+                android:textSize="20sp"
+                android:text="Vertical Dilution of Precision:" />
+            <TextView
+                android:id="@+id/vdop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="......" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp">
+            <TextView
+                android:id="@+id/satText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="right"
+                android:textSize="20sp"
+                android:text="No. Satellite Tracked:" />
+            <TextView
+                android:id="@+id/sat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#008000"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:text="......" />
+        </TableRow>
+        <TableRow
+            android:background="#CCC"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp">
+            <Button
+                android:id="@+id/start_service_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="true"
+                android:gravity="right"
+                android:textSize="20sp"
+                android:text="@string/start_service_button_text" />
+            <Button
+                android:id="@+id/stop_service_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:gravity="left"
+                android:textSize="20sp"
+                android:text="@string/stop_service_button_text" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
